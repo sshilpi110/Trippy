@@ -1,0 +1,65 @@
+.navbarItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 95%;
+    height: 80px;
+
+}
+
+.navbar-logo {
+    color: green;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+
+}
+
+.nav-links {
+    text-decoration: none;
+    color: green;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+}
+
+.nav-links i {
+    padding: 10px;
+}
+
+.nav-links:hover {
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    transition: all 0.2 ease-in-out;
+}
+
+/* hide our signup button */
+
+.nav-links-mobile {
+    display: none;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    white-space:nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
