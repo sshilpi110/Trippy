@@ -1,4 +1,3 @@
-import React from "react"
 import { Component } from "react"
 import { Link } from "react-router-dom"
 import { MenuItems } from "./MenuItems"
@@ -14,11 +13,11 @@ class Navbar extends Component {
             <nav className="navbarItem">
                 <h1 className="navbar-logo">Trippy</h1>
 
-                {/* <div className="Menu-icons" onClick={this.handleClick}>
-                    <i className={this.state.clicked ? "fas fa-times" : "fas-fa-bars"}></i>
-                </div> */}
+                <div className="Menu-icons" onClick={this.handleClick}>
+                    <i className={this.state.clicked ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
+                </div>
 
-                <ul className="nav-menu">
+                <ul className={this.state.clicked ? "nav-menu" : "nav-menu active"}>
                     {MenuItems.map((item, index) => {
                         return (
                             <li key={index}>
