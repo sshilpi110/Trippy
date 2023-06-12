@@ -1,19 +1,19 @@
-import React from "react"
-import aboutImg from "../assests/night.jpg";
 import Navbar from "../Component/Navbar";
+import Hero from "../Component/Hero";
+import AboutImg from "../assests/night.jpg"
+
+
 const About = () => {
-        return (
-        <div>
-        <Navbar />
-             <About
-               cName="hero"
-               heroImg={aboutImg}
-               title="Your Journey Your Story"
-               text="Choose your Favourite Destination."
-               btnText="Travel Plan"
-               url="/"
-               btnClass="show"
-             />
+    return (
+        <div className="hero-mid">
+            <Navbar />
+            <Hero
+                cName="hero-mid"
+                heroImg={AboutImg}
+                title="About"
+                btnClass="hide"
+            />
+
         </div>
     )
 }

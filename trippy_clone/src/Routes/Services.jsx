@@ -1,10 +1,17 @@
-import React from "react"
+import Navbar from "../Component/Navbar";
+import Hero from "../Component/Hero";
+import ServicesImg from "../assests/1.jpg"
 
 const Services = () => {
     return (
-        <div>
-        <h1>This is Services page</h1>
-
+        <div className="hero-mid">
+        <Navbar />
+        <Hero
+            cName="hero-mid"
+            heroImg={ServicesImg}
+            title="Services"
+            btnClass="hide"
+        />
         </div>
     )
 }

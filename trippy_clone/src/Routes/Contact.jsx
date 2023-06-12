@@ -1,11 +1,20 @@
-import React from "react"
+import Navbar from "../Component/Navbar";
+import Hero from "../Component/Hero";
+import ContactImg from "../assests/2.jpg"
+
 
 const Contact = () => {
     return (
-        <div>
-        <h1>This is Contact page</h1>
+        <div className="hero-mid">
+        <Navbar />
+        <Hero
+            cName="hero-mid"
+            heroImg={ContactImg}
+            title="Contact"
+            btnClass="hide"
+        />
 
-        </div>
+    </div>
     )
 }
 export default Contact;
