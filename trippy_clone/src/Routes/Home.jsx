@@ -1,6 +1,7 @@
 import Destination from "../Component/Destination"
 import Hero from "../Component/Hero"
 import Navbar from "../Component/Navbar"
+import Trip from "../Component/Trip"
 import HomeImg from "../assests/12.jpg"
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
                 btnClass="show"
             />
             <Destination />
+          <Trip/>
         </div>
     )
 }
