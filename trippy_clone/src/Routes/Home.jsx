@@ -1,4 +1,5 @@
 import Destination from "../Component/Destination"
+import Footer from "../Component/Footer"
 import Hero from "../Component/Hero"
 import Navbar from "../Component/Navbar"
 import Trip from "../Component/Trip"
@@ -18,6 +19,7 @@ const Home = () => {
             />
             <Destination />
           <Trip/>
+          <Footer/>
         </div>
     )
 }

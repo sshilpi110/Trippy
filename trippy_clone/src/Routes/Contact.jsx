@@ -1,5 +1,8 @@
-import Navbar from "../Component/Navbar";
 import Hero from "../Component/Hero";
+import Navbar from "../Component/Navbar";
+import Footer from "../Component/Footer";
+import ContactForm from "../Component/ContactForm";
+
 import ContactImg from "../assests/2.jpg"
 
 
@@ -13,6 +16,10 @@ const Contact = () => {
             title="Contact"
             btnClass="hide"
         />
+        <ContactForm/>
+        <Navbar/>
+        <Footer/>
+     
 
     </div>
     )
